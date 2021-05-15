@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario 4AMPr</title>
+</head>
+
+<body bgcolor="#1DF4CF">
+<form name="contact" method="POST" data-netlify="true">
+  <table width="445" border="2" align="center" cellpadding="15" cellspacing="15" bgcolor="white">
+    <tbody>
+      <tr>
+        <td width="68">Nombre</td>
+        <td width="264"><input name="Nombre" type="text" id="Nombre" placeholder="Ingrese su Nombre" size="30"></td>
+      </tr>
+      <tr>
+        <td>Apellido Paterno</td>
+        <td><input name="Apellido Paterno" type="text" id="Apellido Paterno" placeholder="Ingrese su Apellido" size="30"></td>
+      </tr>
+      <tr>
+        <td>Apellido Materno</td>
+        <td><input name="Apellido Materno" type="text" id="Apellido Materno" placeholder="Ingrese su Apellido" size="30"></td>
+      </tr>
+      <tr>
+        <td>Correo Electrónico</td>
+        <td><input name="Correo Electronico" type="email" id="Correo Electronico" placeholder="Ingrese su Correo" size="44"></td>
+      </tr>
+      <tr>
+        <td>Número  de Teléfono</td>
+        <td><input name="number" type="tel" id="Tel" placeholder="Ingrese su Número"></td>
+      </tr>
+      <tr>
+        <td>Código Postal</td>
+        <td><input type="number" name="number" id="number"></td>
+      </tr>
+      <tr>
+        <td>Fecha de Nacimiento</td>
+		  
+        <td><input name="Fecha de Nacimiento" type="date" id="Fecha de Nacimiento"></td>
+      </tr>
+      <tr>
+        <td>Estado de Nacimiento</td>
+        <td><input name="Lugar de Nacimento" type="text" id="Lugar de Nacimento" placeholder="Ingrese su Estado de Nacimiento" size="30"></td>
+      </tr>
+      <tr>
+        <td>Estado Civil</td>
+        <td><label for="Estado Civil">Actualmente me encuentro:</label>
+          <select name="Estado Civil" id="Estado Civil">
+            <option selected="selected">Casad@</option>
+            <option>Divorciad@</option>
+            <option>Viud@</option>
+            <option>Soltero</option>
+            <option>En una Relación</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>¿Te gustan las clases a distancia?</td>
+        <td><input type="radio" name="radio" id="radio" value="radio">
+          Si, me gustan
+<input type="radio" name="radio" id="radio2" value="radio">
+No, no me gustan</td>
+      </tr>
+      <tr>
+        <td>¿Cúal es tu materia que mas te gusta?</td>
+        <td><label for="Materia que te gusta">Materia:</label>
+          <select name="Materia que te gusta" id="Materia que te gusta">
+<option>S3M3Pr</option>
+<option>Física I</option>
+<option>S1M3Pr</option>
+<option>Cálculo Diferencial</option>
+<option>Ingles IV</option>
+<option>S2M3Pr</option>
+<option selected="selected">Ecología</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>¿Cúal es tu materia que menos te gusta?</td>
+        <td>   Materia:
+          <select name="Materia que no gusta" id="Materia que no gusta">
+          <option>S3M3Pr</option>
+          <option>Física I</option>
+          <option>S1M3Pr</option>
+          <option>Cálculo Diferencial</option>
+          <option>Ingles IV</option>
+          <option>S2M3Pr</option>
+          <option selected="selected">Ecología</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Tu pasa tiempo luego de terminar las clases</td>
+        <td><input name="Pasa Tiempo" type="text" id="Pasa Tiempo" placeholder="Ingrese su Pasa Tiempo"></td>
+      </tr>
+      <tr>
+        <td>¿Te gusta la especialidad?</td>
+        <td><input type="radio" name="radio2" id="radio3" value="radio3">
+        <label for="radio2">No
+          <input type="radio" name="radio2" id="radio4" value="radio4">
+          Si
+        </label></td>
+      </tr>
+      <tr>
+        <td>Google Meet o Zoom</td>
+        <td><p>
+          <label>
+            <input type="radio" name="Meet o Zoom" value="opción" id="MeetoZoom_0">
+            Zoom</label>
+          <br>
+          <label>
+            <input type="radio" name="Meet o Zoom" value="opción" id="MeetoZoom_1">
+            Google Meet</label>
+          <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td><input name="Enviar" type="submit" id="Enviar" formaction="mailto:felipe8eo@gmail.com" formmethod="POST" value="Enviar">
+        <input type="reset" name="reset" id="reset" value="Restablecer"></td>
+        
+      </tr>
+    </tbody>
+  </table>
+  <label for="Nombre">:</label>
+</form>
+</body>
+</html>
